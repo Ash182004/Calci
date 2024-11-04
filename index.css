@@ -1,0 +1,115 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background: black;
+}
+
+.class1 {
+    width: 50vw;
+    height: 70vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* For subtle 3D effect */
+    border-radius: 8px;
+}
+
+.class2 {
+    width: 48vw;
+    height: 10vh;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: rgb(71, 70, 70);
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px; /* Adjusted padding for alignment */
+    box-sizing: border-box; /* To avoid overflow */
+}
+
+.class3 {
+    width: 48vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 15px; /* More compact spacing */
+    background: rgb(62, 62, 62);
+    border-radius: 5px;
+    padding: 15px; /* Inner padding for spacing */
+    box-sizing: border-box;
+}
+
+.class4 {
+    width: 5vw;
+    height: 7vh;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Softer shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px; /* Slightly smaller for better fit */
+    font-weight: bold;
+    background: rgb(120, 118, 118);
+    border-radius: 6px;
+    margin: 4px;
+    transition: background 0.2s ease; /* Smooth hover transition */
+}
+
+.class4:hover {
+    background: rgb(158, 157, 157);
+}
+
+.big {
+    width: 11vw;
+}
+
+.dark {
+    background-color: rgb(54, 54, 54);
+}
+
+.blue {
+    background-color: rgb(112, 161, 234);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6); /* Enhanced shadow for equal button */
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .class1{
+        width: 85vw;
+        height: 95vh;
+    }
+    .class2{
+        width: 82vw;
+    }
+    .class3{
+        width: 82vw;
+        height: 80vh;
+        gap: 10px 10px;
+    }
+    .big{
+        width: 20vw;
+    }
+    .class4{
+        width: 10vw;
+    }
+    
+  }
+  
+  
